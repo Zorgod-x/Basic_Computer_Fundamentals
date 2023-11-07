@@ -4,9 +4,9 @@
   * **Boot Sequence :**<br>
   The boot sequence determines the order in which the computer checks for and boots from different storage devices (e.g., hard drive, USB drive, CD/DVD drive).
   * **Enabling / Disabling Devices :** <br/>
-    > BIOS settings allow users to enable or disable various hardware components, such as USB ports, integrated audio, onboard graphics, or network adapters.
+    &nbsp;BIOS settings allow users to enable or disable various hardware components, such as USB ports, integrated audio, onboard graphics, or network adapters.
   * **Changing Date / Time :** <br/>
-  BIOS includes a real-time clock (RTC) that keeps track of the system's date and time. Users can set or adjust the date and time in BIOS to ensure accurate timestamps for files and system logs.
+  &emsp;BIOS includes a real-time clock (RTC) that keeps track of the system's date and time. Users can set or adjust the date and time in BIOS to ensure accurate timestamps for files and system logs.
     * **CMOS Batteries :**<br/>
     BIOS settings are stored in CMOS (Complementary Metal-Oxide-Semiconductor) memory, which requires a small battery to maintain these settings even when the computer is powered off.
   * **CPU Clockspeeds :**<br/>
