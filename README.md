@@ -6,12 +6,17 @@
   * **Enabling / Disabling Devices :** <br/>
   BIOS settings allow users to enable or disable various hardware components, such as USB ports, integrated audio, onboard graphics, or network adapters.
   * **Changing Date / Time :** <br/>
-  BIOS includes a real-time clock (RTC) that keeps track of the system's date and time. Users can set or adjust the date and time in BIOS to ensure accurate timestamps for files and system logs
-    * **CMOS Batteries :**
-  * **CPU Clockspeeds :**
-  * **BIOS Firmware Upgrades :**
-  * **Enabling Virtualization Support :**
-  * **Secure Boot _(Basic Understanding)_ :**
+  BIOS includes a real-time clock (RTC) that keeps track of the system's date and time. Users can set or adjust the date and time in BIOS to ensure accurate timestamps for files and system logs.
+    * **CMOS Batteries :**<br/>
+    BIOS settings are stored in CMOS (Complementary Metal-Oxide-Semiconductor) memory, which requires a small battery to maintain these settings even when the computer is powered off.
+  * **CPU Clockspeeds :**<br/>
+  BIOS allows users to configure CPU clockspeed settings, including the base clock frequency and the multiplier. Overclocking enthusiasts often use these settings to increase CPU performance.
+  * **BIOS Firmware Upgrades :**<br/>
+  BIOS firmware upgrades, often referred to as BIOS updates or flashing the BIOS, involve updating the firmware on the motherboard to add new features, improve compatibility, or fix security vulnerabilities. This process should be done with caution.
+  * **Enabling Virtualization Support :**<br/>
+  Some CPUs support hardware-assisted virtualization, which is crucial for running virtual machines efficiently. In BIOS, users can enable or disable virtualization technology (e.g., Intel VT-x or AMD-V) to enhance virtualization performance.
+  * **Secure Boot _(Basic Understanding)_ :**<br/>
+  Secure Boot is a security feature that prevents the loading of unauthorized or malicious software during the boot process. It verifies the digital signatures of bootloader files to ensure they haven't been tampered with. Users can typically enable or disable Secure Boot in BIOS.
 * **Hard Drive Basics**
   * **Magnetic HDDs :**
   * **SSDs :**
