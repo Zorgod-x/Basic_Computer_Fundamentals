@@ -17,7 +17,7 @@
   Some CPUs support hardware-assisted virtualization, which is crucial for running virtual machines efficiently. In BIOS, users can enable or disable virtualization technology (e.g., Intel VT-x or AMD-V) to enhance virtualization performance.
   * **Secure Boot _(Basic Understanding)_ :**<br/>
   Secure Boot is a security feature that prevents the loading of unauthorized or malicious software during the boot process. It verifies the digital signatures of bootloader files to ensure they haven't been tampered with. Users can typically enable or disable Secure Boot in BIOS.
-<br/>
+
 * **Hard Drive Basics**
   * **Magnetic HDDs :**<br/>
   Magnetic HDDs use spinning platters coated with a magnetic material to store data. An actuator arm with read/write heads moves over the platters to read or write data. They provide high-capacity storage at a lower cost but are slower and less durable than SSDs.
@@ -25,8 +25,8 @@
   SSDs use NAND flash memory to store data. They are faster, more energy-efficient, and durable than HDDs because they have no moving parts
   * **eMMC :**<br/>
   eMMC is a type of flash storage used in many mobile devices and budget laptops. It's an integrated solution where the storage and controller are combined into a single chip. While eMMC is cost-effective, it's slower than SSDs.
-  <br/>
-  * **Partitioning :**<br/>
+  
+* **Partitioning :** <br/>
   Partitioning involves dividing a hard drive or SSD into multiple logical sections or partitions. Partitions can help organize data, separate the operating system from user data, or facilitate multi-boot setups.
     * **FAT32 :**<br/>
     FAT32 is a file system format that can be used for storing files on hard drives, USB drives, and memory cards. It's a simple and widely compatible format but has limitations, such as a maximum file size of 4 GB.
@@ -37,8 +37,8 @@
   * **MBR _(Legacy)_  :**<br/>
   MBR is a legacy boot sector that was widely used to manage partition information and bootloaders in older computer systems.
   * **EFI / UEFI :**<br/>
-  EFI/UEFI is a modern replacement for the traditional BIOS. It provides an interface between the operating system and the hardware. UEFI is more secure and versatile, supporting larger hard drives and newer security features like Secure Boot.
-<br/>
+  EFI/UEFI is a modern replacement for the traditional BIOS. It provides an interface between the operating system and the hardware. UEFI is more secure and versatile, supporting larger hard drives and newer security features like Secure Boot.<br/>
+ 
 * **RAM**
   * **DDR1, DDR2, DDR3, DDR4:**
   * **Memory Speeds:**
@@ -103,60 +103,4 @@
   * RAID 10
 
 
-  Caching:
-
-Caching is a technique used in computing to store and reuse data or resources to speed up access and reduce the load on the original data source. There are various types of caching:
-
-Web Caching:
-
-Web caching involves storing web content (HTML pages, images, stylesheets, etc.) at intermediate points, like web proxies or Content Delivery Networks (CDNs). Cached content can be quickly delivered to users, reducing the load on the origin server and improving website performance.
-Data Caching:
-
-Data caching is used to store frequently accessed data in a faster, more easily retrievable location, such as RAM. This speeds up data retrieval and reduces the need to access the original data source, which may be slower.
-Application/Output Caching:
-
-Application or output caching is used in software applications to store the results of expensive or time-consuming operations, such as database queries or calculations. The cached results are reused for subsequent requests, improving application performance.
-Distributed Caching:
-
-Distributed caching involves caching data across multiple servers or nodes in a distributed computing environment. It enables quick access to data without the need to retrieve it from a central source, reducing latency and improving scalability.
-Common File Extensions:
-
-Here are some common file extensions for various types of files:
-
-Executables:
-
-.exe: Executable file in Windows.
-.o: Object file in Unix-like systems, used in the compilation process.
-.sh: Shell script file in Unix-like systems.
-Library files:
-
-.dll: Dynamic Link Library in Windows, containing reusable code.
-.so: Shared Object file in Unix-like systems, similar to dynamic libraries in Windows.
-.lib: Library file in Windows used for static linking.
-Web files:
-
-.html: Hypertext Markup Language file for web pages.
-.php: PHP script file for server-side web development.
-.css: Cascading Style Sheets file for web page styling.
-.js: JavaScript file for client-side web scripting.
-Image files:
-
-.jpg or .jpeg: Joint Photographic Experts Group image file.
-.svg: Scalable Vector Graphics image file.
-.png: Portable Network Graphics image file.
-Document files:
-
-.doc: Microsoft Word document file.
-.txt: Plain text document file.
-.pdf: Portable Document Format file, commonly used for documents that should be viewable and printable on different platforms.
-Code files:
-
-.c: C programming language source code file.
-.cpp: C++ programming language source code file.
-.py: Python programming language source code file.
-Key files:
-
-.pub: Public key file, typically used in public-key cryptography.
-.pem: Privacy-Enhanced Mail certificate file, often used for secure communication.
-.der: Distinguished Encoding Rules file, a binary encoding format often used in security applications.
-Understanding these file extensions is essential for working with various types of files and software applications. Different extensions indicate the format and purpose of the files, making it easier to identify and use them appropriately.
+  
