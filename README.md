@@ -1,9 +1,9 @@
 
 ### Very Basic Computer Fundamentals
 * **Basic BIOS Configurations**
-  * Boot Sequence
-  * Enabling / Disabling Devices
-  * Changing Date / Time
+  * Boot Sequence :The boot sequence determines the order in which the computer checks for and boots from different storage devices (e.g., hard drive, USB drive, CD/DVD drive).
+  * Enabling / Disabling Devices : BIOS settings allow users to enable or disable various hardware components, such as USB ports, integrated audio, onboard graphics, or network adapters.
+  * Changing Date / Time : BIOS includes a real-time clock (RTC) that keeps track of the system's date and time. Users can set or adjust the date and time in BIOS to ensure accurate timestamps for files and system logs
     * CMOS Batteries
   * CPU Clockspeeds
   * BIOS Firmware Upgrades
