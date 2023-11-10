@@ -12,7 +12,7 @@
   * **CPU Clockspeeds :**<br/>
   BIOS allows users to configure CPU clockspeed settings, including the base clock frequency and the multiplier. Overclocking enthusiasts often use these settings to increase CPU performance.
   * **BIOS Firmware Upgrades :**<br/>
-  BIOS firmware upgrades, often referred to as BIOS updates or flashing the BIOS, involve updating the firmware on the motherboard to add new features, improve compatibility, or fix security vulnerabilities. This process should be done with caution.
+  Often referred to as BIOS updates or flashing the BIOS, involve updating the firmware on the motherboard to add new features, improve compatibility, or fix security vulnerabilities. This process should be done with caution.
   * **Enabling Virtualization Support :**<br/>
   Some CPUs support hardware-assisted virtualization, which is crucial for running virtual machines efficiently. In BIOS, users can enable or disable virtualization technology (e.g., Intel VT-x or AMD-V) to enhance virtualization performance.
   * **Secure Boot _(Basic Understanding)_ :**<br/>
