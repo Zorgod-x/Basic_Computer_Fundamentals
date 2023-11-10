@@ -71,46 +71,54 @@ Ryzen 9: High-end processors with multiple cores and threads.
   These CPUs can address significantly more RAM, making them suitable for modern computing. They are more common in today's systems.
   * **MultiThreading vs. MultiProcessing:**<br/>
   MultiThreading refers to a CPU's ability to handle multiple threads (tasks) simultaneously, improving performance and multitasking. MultiProcessing, on the other hand, involves multiple physical processors (or CPU cores) in a system, allowing it to process multiple tasks independently.
-* **GPUs**
-  * **Integrated vs. Discrete GPUs**
-  * **Ray Tracing:**
-  * **GPU Memory:**
-  * **GPU Bandwidth:**
-* **Caching**
-  * **Web Caching:**
-  * **Data Caching:**
-  * **Application/Output Caching:**
-  * **Distributed Caching:**
-* **Common File Exstentions**
+* **GPUs**<br/>
+GPUs are specialized processors designed for rendering graphics and performing parallel processing tasks.
+  * **Integrated vs. Discrete GPUs**<br/>
+  Integrated GPUs are built into the CPU or motherboard and share system RAM.<br/>
+  Discrete GPUs are separate graphics cards with dedicated VRAM and offer higher performance for gaming and graphics-intensive tasks.
+  * **Ray Tracing :**<br/>
+  Ray tracing is a rendering technique that simulates how light interacts with objects to create highly realistic graphics. It's used in modern GPUs to enhance graphics quality.
+  * **GPU Memory :**<br/>
+  GPU memory (VRAM) is dedicated memory used by the GPU for rendering and storing textures and other graphics data. More VRAM can improve performance in graphics-intensive applications.
+  * **GPU Bandwidth :**<br/>
+  GPU bandwidth is the rate at which data can be transferred to and from the GPU's memory. Higher bandwidth allows for faster data access and rendering, improving GPU performance.
+* **Caching**<br/>
+Caching is a technique used in computing to store and reuse data or resources to speed up access and reduce the load on the original data source. There are various types of caching:
+  * **Web Caching :**<br/>
+  Involves storing web content (HTML pages, images, stylesheets, etc.) at intermediate points, like web proxies or Content Delivery Networks (CDNs). Cached content can be quickly delivered to users.
+  * **Data Caching :**<br/>
+  Data caching is used to store frequently accessed data in a faster, more easily retrievable location, such as RAM.
+  * **Application/Output Caching :**<br/>
+  Application or output caching is used in software applications to store the results of expensive or time-consuming operations, such as database queries or calculations. The cached results are reused for subsequent requests.
+  * **Distributed Caching :**<br/>
+  Distributed caching involves caching data across multiple servers or nodes in a distributed computing environment. It enables quick access to data without the need to retrieve it from a central source.
+* **Common File Exstentions**<br/>
+
   * **Executables**
-    * **.exe:**
-    * **.o:**
-    * **.sh:**
+    * **.exe :** Executable file in Windows.
+    * **.o :**   Object file in Unix-like systems, used in the compilation process.
+    * **.sh :**  Shell script file in Unix-like systems.
   * **Library files*
-    * **.dll:**
-    * **.so:**
-    * **.lib:**
+    * **.dll :** Dynamic Link Library in Windows, containing reusable code.
+    * **.so :**  Shared Object file in Unix-like systems, similar to dynamic libraries in Windows.
+    * **.lib :** Library file in Windows used for static linking.
   * **Web files**
-    * **.html:**
-    * **.php:**
-    * **.css:**
-    * **.js:**
+    * **.html :** Hypertext Markup Language file for web pages.
+    * **.php :** PHP script file for server-side web development.
+    * **.css :** Cascading Style Sheets file for web page styling.
+    * **.js :**  JavaScript file for client-side web scripting.
   * **Image files**
-    * **.jpg:**
-    * **.svg:**
-    * **.png:**
+    * **.jpg or .jpeg :** Joint Photographic Experts Group image file.
+    * **.svg :** Scalable Vector Graphics image file. 
+    * **.png :** Portable Network Graphics image file.
   * **Document files**
-    * **.doc:**
-    * **.txt:**
-    * **.pdf:**
-  * **Code files**
-    * **.c:**
-    * **.cpp:**
-    * **.py:**
+    * **.doc :** Microsoft Word document file.
+    * **.txt :**  Plain text document file.
+    * **.pdf :** Portable Document Format file, used for documents that should be viewable and printable on different platforms.
   * **Key files**
-    * **.pub:**
-    * **.pem:**
-    * **.der:**
+    * **.pub :** Public key file, typically used in public-key cryptography.
+    * **.pem :** Privacy-Enhanced Mail certificate file, often used for secure communication.
+    * **.der :** Distinguished Encoding Rules file, a binary encoding format often used in security applications.
 * **Encoding**
   * Base64
   * ASCII
