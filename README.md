@@ -39,18 +39,38 @@
   * **EFI / UEFI :**<br/>
   EFI/UEFI is a modern replacement for the traditional BIOS. It provides an interface between the operating system and the hardware. UEFI is more secure and versatile, supporting larger hard drives and newer security features like Secure Boot.<br/>
  
-* **RAM**
-  * **DDR1, DDR2, DDR3, DDR4:**
-  * **Memory Speeds:**
-  * **Memory Addressing:**
-* **CPUs**
-  * **Intel:**
-    * **i3, i5, i7, i9:**
-  * **AMD:**
-    * **Ryzen 3, Ryzen 5, Ryzen 7, Ryzen 9:**
-  * **32bit CPUs:**
-  * **64bit CPUs:**
-  * **MultiThreading vs. MultiProcessing:**
+* **RAM**<br/>
+  RAM is volatile computer memory used for temporarily storing data that the CPU is actively using. It allows for quick access and retrieval of data, significantly faster than reading from a storage drive.
+  * **DDR1, DDR2, DDR3, DDR4 :**<br/>
+  These are different generations of DDR RAM. Each generation offers increased data transfer rates and efficiency.
+  * **Memory Speeds :**<br/>
+  Memory speed, measured in MHz (megahertz), indicates how quickly data can be read from or written to RAM. Higher MHz values mean faster memory
+  * **Memory Addressing :**<br/>
+  Memory addressing refers to the system's ability to locate and access specific memory locations. 32-bit systems can address up to 4 GB of RAM
+* **CPUs**<br/>
+CPUs are the "brains" of a computer and execute instructions. They come in various brands and models.
+  * **Intel:**<br/>
+  
+    * **i3, i5, i7, i9:**<br/>
+    Intel offers a range of processors, including:
+i3: Entry-level processors.
+i5: Mid-range processors.
+i7: High-end processors.
+i9: Enthusiast processors with high performance and more cores/threads.
+AMD CPUs:
+  * **AMD:**<br/>
+  
+    * **Ryzen 3, Ryzen 5, Ryzen 7, Ryzen 9:**<br/>
+    Ryzen 3: Entry-level processors.
+Ryzen 5: Mid-range processors.
+Ryzen 7: High-performance processors.
+Ryzen 9: High-end processors with multiple cores and threads.
+  * **32bit CPUs:**<br/>
+  These CPUs can address a maximum of 4 GB of RAM. They are limited in terms of memory capacity and are less common in modern computers.
+  * **64bit CPUs:**<br/>
+  These CPUs can address significantly more RAM, making them suitable for modern computing. They are more common in today's systems.
+  * **MultiThreading vs. MultiProcessing:**<br/>
+  MultiThreading refers to a CPU's ability to handle multiple threads (tasks) simultaneously, improving performance and multitasking. MultiProcessing, on the other hand, involves multiple physical processors (or CPU cores) in a system, allowing it to process multiple tasks independently.
 * **GPUs**
   * **Integrated vs. Discrete GPUs**
   * **Ray Tracing:**
