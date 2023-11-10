@@ -119,16 +119,18 @@ Caching is a technique used in computing to store and reuse data or resources to
     * **.pub :** Public key file, typically used in public-key cryptography.
     * **.pem :** Privacy-Enhanced Mail certificate file, often used for secure communication.
     * **.der :** Distinguished Encoding Rules file, a binary encoding format often used in security applications.
-* **Encoding**
-  * Base64
-  * ASCII
-  * UTF-8
-* **RAIDs**
-  * RAID 0
-  * RAID 1
-  * RAID 5
-  * RAID 6
-  * RAID 10
+* **Encoding**<br/>
+Encoding is the process of converting data from one format or representation to another. It's commonly used in computing and communication to ensure that data can be accurately and efficiently stored, transmitted, or displayed. Here are some encoding schemes:
+  * **Base64 :** Base64 is a binary-to-text encoding scheme that represents binary data using a set of 64 different printable characters.
+  * **ASCII :** ASCII (American Standard Code for Information Interchange) is a character encoding standard that uses 7 or 8 bits to represent text characters, control characters, and symbols.
+  * **UTF-8 :** UTF-8 (Unicode Transformation Format - 8-bit) is a variable-width character encoding that can represent virtually all characters from the Unicode standard. 
+* **RAIDs** <br/>
+RAID is a technology used to combine multiple physical hard drives into a single logical unit for data storage and redundancy
+  * **RAID 0 :** Striping
+  * **RAID 1 "** Mirroring
+  * **RAID 5 :** Striping with Parity
+  * **RAID 6 :** Striping with Dual Parity
+  * **RAID 10 :** Striped Mirroring
 
 
   
